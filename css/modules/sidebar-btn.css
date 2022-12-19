@@ -1,0 +1,19 @@
+.sidebar-btn {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 3px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar-btn__icon {
+  margin: auto;
+  fill: var(--medium-gray);
+}
+
+.sidebar-btn:hover .sidebar-btn__icon,
+.sidebar-btn:focus-visible .sidebar-btn__icon {
+  fill: var(--dark-gray);
+}

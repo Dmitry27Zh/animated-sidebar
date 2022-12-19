@@ -1,0 +1,31 @@
+@import './modules/header.css';
+@import './modules/sidebar-btn.css';
+@import './modules/sidebar.css';
+@import './modules/content.css';
+
+:root {
+  --accent-color: rgb(204, 0, 0);
+  --lightest-gray: rgb(244, 244, 244);
+  --light-gray: rgb(144, 144, 144);
+  --medium-gray: rgb(96, 96, 96);
+  --dark-gray: rgb(13, 13, 13);
+  --header-height: 40px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+}
