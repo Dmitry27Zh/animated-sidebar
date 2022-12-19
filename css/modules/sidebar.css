@@ -25,10 +25,6 @@
   opacity: 1;
 }
 
-.sidebar.open .sidebar__top {
-  /* height: 10em; */
-}
-
 .sidebar.open .sidebar__logo {
   width: 90px;
   height: 90px;
@@ -100,7 +96,6 @@
 
 .sidebar__link {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   padding: 0.25em 0.5em 0.25em 1.5em;
   font-size: 14px;
@@ -131,7 +126,10 @@
 
 .sidebar__item-title {
   margin: 0;
+  max-width: 100%;
   font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .sidebar__hidden {
